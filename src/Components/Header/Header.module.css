@@ -1,0 +1,28 @@
+.bg-body-tertiary {
+    background-color: rgb(244, 101, 134);
+}
+
+.brand {
+    font-weight: bold !important;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif !important;
+    font-size: 25px !important;
+    color: rgb(83, 36, 5) !important;
+}
+
+.headone{
+    border-bottom: 2px solid gray;
+}
+
+.bg-body-tertiary Button {
+    position: relative;
+    left: -10px;
+}
+
+@media (max-width: 768px) {
+    .navcon {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: -20%;
+    }
+}
